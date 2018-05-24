@@ -28,4 +28,4 @@ Output plugins:
 Running
 -------
 
-    docker run -d -p 0.0.0.0:80 --device=/dev/video0 --name=mjpeg_streamer fallen90/mjpg-streamer-rpi:latest
+    docker run -d -p 80:80 --device=/dev/video0 --name=mjpeg_streamer fallen90/mjpg-streamer-rpi:latest
